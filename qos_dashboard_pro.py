@@ -479,6 +479,6 @@ def logout_user():
     for key in list(st.session_state.keys()):
         del st.session_state[key]
     st.rerun()
-print("Hi")
+print("Hi iam keerthi")
 if __name__ == "__main__":
     main()
